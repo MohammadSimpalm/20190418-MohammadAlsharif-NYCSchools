@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B39F7A6D2269435A00FEE871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A6C2269435A00FEE871 /* AppDelegate.swift */; };
-		B39F7A6F2269435A00FEE871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A6E2269435A00FEE871 /* ViewController.swift */; };
 		B39F7A722269435A00FEE871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39F7A702269435A00FEE871 /* Main.storyboard */; };
 		B39F7A742269435B00FEE871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39F7A732269435B00FEE871 /* Assets.xcassets */; };
 		B39F7A772269435B00FEE871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39F7A752269435B00FEE871 /* LaunchScreen.storyboard */; };
 		B39F7A822269435B00FEE871 /* _0190418_MohammadAlsharif_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A812269435B00FEE871 /* _0190418_MohammadAlsharif_NYCSchoolsTests.swift */; };
 		B39F7A8D2269435B00FEE871 /* _0190418_MohammadAlsharif_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A8C2269435B00FEE871 /* _0190418_MohammadAlsharif_NYCSchoolsUITests.swift */; };
+		B39F7A9D2269453400FEE871 /* SATScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A9B2269453400FEE871 /* SATScoresViewController.swift */; };
+		B39F7A9E2269453400FEE871 /* SchoolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A9C2269453400FEE871 /* SchoolListViewController.swift */; };
+		B39F7AA0226945A100FEE871 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F7A9F226945A100FEE871 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		B39F7A692269435A00FEE871 /* 20190418-MohammadAlsharif-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190418-MohammadAlsharif-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39F7A6C2269435A00FEE871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B39F7A6E2269435A00FEE871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B39F7A712269435A00FEE871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B39F7A732269435B00FEE871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B39F7A762269435B00FEE871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		B39F7A882269435B00FEE871 /* 20190418-MohammadAlsharif-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190418-MohammadAlsharif-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39F7A8C2269435B00FEE871 /* _0190418_MohammadAlsharif_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0190418_MohammadAlsharif_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		B39F7A8E2269435B00FEE871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39F7A9B2269453400FEE871 /* SATScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATScoresViewController.swift; sourceTree = "<group>"; };
+		B39F7A9C2269453400FEE871 /* SchoolListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolListViewController.swift; sourceTree = "<group>"; };
+		B39F7A9F226945A100FEE871 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,8 @@
 		B39F7A6B2269435A00FEE871 /* 20190418-MohammadAlsharif-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				B39F7A9A2269452100FEE871 /* ViewController */,
 				B39F7A6C2269435A00FEE871 /* AppDelegate.swift */,
-				B39F7A6E2269435A00FEE871 /* ViewController.swift */,
 				B39F7A702269435A00FEE871 /* Main.storyboard */,
 				B39F7A732269435B00FEE871 /* Assets.xcassets */,
 				B39F7A752269435B00FEE871 /* LaunchScreen.storyboard */,
@@ -123,6 +127,16 @@
 				B39F7A8E2269435B00FEE871 /* Info.plist */,
 			);
 			path = "20190418-MohammadAlsharif-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		B39F7A9A2269452100FEE871 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B39F7A9F226945A100FEE871 /* BaseViewController.swift */,
+				B39F7A9B2269453400FEE871 /* SATScoresViewController.swift */,
+				B39F7A9C2269453400FEE871 /* SchoolListViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39F7A6F2269435A00FEE871 /* ViewController.swift in Sources */,
+				B39F7A9D2269453400FEE871 /* SATScoresViewController.swift in Sources */,
+				B39F7AA0226945A100FEE871 /* BaseViewController.swift in Sources */,
+				B39F7A9E2269453400FEE871 /* SchoolListViewController.swift in Sources */,
 				B39F7A6D2269435A00FEE871 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
